@@ -1,0 +1,40 @@
+WAZE - VERSION FINAL
+Abra Segundo Avance.sln en Visual Studio 2022.
+
+SEDES FIJAS
+El mapa mantiene cuatro sedes fijas: Sede Monterrico, Sede San Miguel,
+Sede Villa y Sede San Isidro. No se solicitan coordenadas ni se registran
+ubicaciones nuevas en el mapa.
+
+RUTAS ALTERNATIVAS
+El administrador selecciona por numero la sede de inicio y la sede de destino,
+ingresa nombre, distancia y tiempo. En Puntos de pasada solo existen:
+1. Agregar punto de pasada
+2. Registrar ruta
+Se permiten hasta 3 puntos de pasada escritos libremente. Estos puntos se
+muestran como informacion, pero no se dibujan en el mapa.
+
+RUTAS COMBINADAS
+Una ruta combinada enlaza dos rutas consecutivas y utiliza ListaDoble<Ruta>.
+Ademas de origen y destino final, ahora guarda y muestra explicitamente la
+sede intermedia que conecta ambas rutas. Ejemplo:
+Sede San Miguel -> Sede Villa -> Sede Monterrico.
+El archivo rutas_combinadas.txt conserva tambien esa sede intermedia.
+
+COLORES DE INTERFAZ
+Los titulos principales de los menus y procesos se muestran en amarillo en
+la consola de Visual Studio. Las opciones permanecen con el color normal.
+
+ORDENAMIENTOS
+QuickSort: rutas por tiempo.
+Merge Sort: rutas por kilometros.
+Counting Sort: usuarios por anio de nacimiento.
+
+ARCHIVOS
+Se mantienen usuarios.txt, administradores.txt, rutas.txt,
+rutas_combinadas.txt, puntos_interes.txt, reportes_pendientes.txt e
+historial_trafico.txt.
+
+Se conservan el mapa ASCII, la pantalla de carga, la animacion del recorrido,
+los menus de usuario/administrador, alertas, lambdas, templates, recursividad
+y las estructuras de datos del proyecto.

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de texto">
+      <UniqueIdentifier>{A8D34485-7A9B-4C5E-B2F1-7D9B34C6A881}</UniqueIdentifier>
+      <Extensions>txt</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="Utilidades.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="Usuario.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="Administrador.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="PerfilUsuario.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="BusquedaRuta.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="RutaFavorita.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="HistorialBusqueda.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="Ruta.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="Sede.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="Avenida.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="Interseccion.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="TramoRuta.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="ReporteTrafico.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="PuntoInteres.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="HistorialTrafico.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="Notificacion.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="EstadoRuta.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="Archivos.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="Ordenamientos.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="DatosIniciales.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="Interfaz.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Configuracion.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Utilidades.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Nodo.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="ListaSimple.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="ListaDoble.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Cola.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Usuario.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Administrador.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="PerfilUsuario.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="BusquedaRuta.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="RutaFavorita.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="HistorialBusqueda.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Ruta.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Sede.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Avenida.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Interseccion.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="TramoRuta.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="ReporteTrafico.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="PuntoInteres.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="HistorialTrafico.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Notificacion.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="EstadoRuta.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Archivos.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Ordenamientos.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="DatosIniciales.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Interfaz.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="usuarios.txt"><Filter>Archivos de texto</Filter></None>
+    <None Include="rutas.txt"><Filter>Archivos de texto</Filter></None>
+    <None Include="puntos_interes.txt"><Filter>Archivos de texto</Filter></None>
+    <None Include="reportes_pendientes.txt"><Filter>Archivos de texto</Filter></None>
+    <None Include="historial_trafico.txt"><Filter>Archivos de texto</Filter></None>
+<None Include="rutas_combinadas.txt"><Filter>Archivos de texto</Filter></None>
+    <None Include="administradores.txt"><Filter>Archivos de texto</Filter></None>
+  </ItemGroup>
+</Project>

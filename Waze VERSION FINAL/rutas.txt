@@ -1,0 +1,6 @@
+Ruta Panamericana|Sede Villa|Sede Monterrico|18.5|29|Mall del Sur;Tottus Atocongo;Jockey Plaza
+Ruta Evitamiento|Sede Villa|Sede Monterrico|20.1|25|Puente Atocongo;Metro San Borja;Jockey Plaza
+Ruta Costa Verde|Sede San Miguel|Sede San Isidro|10.8|22|Plaza San Miguel;Parque Media Luna;Real Plaza Salaverry
+Ruta Javier Prado|Sede San Isidro|Sede Monterrico|13.4|26|Clinica Ricardo Palma;La Rambla San Borja;Jockey Plaza
+Ruta Circuito de Playas|Sede San Miguel|Sede Villa|28.6|42|Plaza San Miguel;Larcomar;Playa Agua Dulce
+Ruta Via Expresa|Sede Monterrico|Sede San Isidro|12|24|Jockey Plaza;Estacion Angamos;Centro Financiero

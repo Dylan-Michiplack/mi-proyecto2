@@ -1,0 +1,3 @@
+Accidente|Sede Villa|4
+Trafico Pesado|Sede Monterrico|2
+Obras en via|Sede San Miguel|5

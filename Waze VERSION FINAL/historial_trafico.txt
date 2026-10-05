@@ -1,0 +1,3 @@
+30/09/2026 09:00:00|REPORTE INICIAL|Accidente|Sede Villa|4
+30/09/2026 09:00:00|REPORTE INICIAL|Trafico Pesado|Sede Monterrico|2
+30/09/2026 09:00:00|REPORTE INICIAL|Obras en via|Sede San Miguel|5
